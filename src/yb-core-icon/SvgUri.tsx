@@ -13,13 +13,17 @@ interface Props {
 function SvgUri(customProps: Props) {
   const { props, overrideProps } = customProps
   const { onError = err, onLoad, width, height } = overrideProps;
-  const { placeholder, loadingPlaceholder, forcedConversion = false, url, color } = props;
+  const { placeholder, loadingPlaceholder, forcedConversion = false, url, color, disableCache = false, disableFetching = false } = props;
   const [xml, setXml] = useState<string | null>(null);
   const [isLoading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(true)
     const fetchFromServer = () => {
+      if (disableFetching) {
+        setXml(null)
+        return
+      }
       if (url !== null) {
         fetchText(url)
           .then(async (data) => {
@@ -27,7 +31,9 @@ function SvgUri(customProps: Props) {
             if (data.includes("404 Not Found")) {
               setXml(null)
             } else {
-              storeData(url, data)
+              if (!disableCache) {
+                storeData(url, data)
+              }
               setXml(data);
               onLoad?.();
             }
@@ -41,19 +47,23 @@ function SvgUri(customProps: Props) {
         setXml(null);
       }
     }
-    getData(url ?? '').then((cachedImage) => {
-      if (cachedImage !== null) {
-        setLoading(false)
-        setXml(cachedImage)
-      } else {
-        fetchFromServer()
-      }
-    }, (reason) => {
-      console.log('Cache failed to retrive. Reason: ', reason)
-      console.log('Fetching From Server...')
+    if (disableCache) {
       fetchFromServer()
-    })
-  }, [onError, url, onLoad]);
+    } else {
+      getData(url ?? '').then((cachedImage) => {
+        if (cachedImage !== null) {
+          setLoading(false)
+          setXml(cachedImage)
+        } else {
+          fetchFromServer()
+        }
+      }, (reason) => {
+        console.log('Cache failed to retrive. Reason: ', reason)
+        console.log('Fetching From Server...')
+        fetchFromServer()
+      })
+    }
+  }, [onError, url, onLoad, disableCache, disableFetching]);
 
   if (Platform.OS === 'ios' || Platform.OS === 'android') {
     const { SvgXml } = require("react-native-svg");

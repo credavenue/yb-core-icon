@@ -17,6 +17,7 @@ const YbCoreIcon: FC<YbCoreIconProps> = props => {
     loadingPlaceholder = <></>,
     customUrl,
     invalidateCacheInDays = 2,
+    disableCache = false,
   } = props;
 
   useCacheInvalidate(invalidateCacheInDays)
@@ -24,10 +25,6 @@ const YbCoreIcon: FC<YbCoreIconProps> = props => {
   let Icon = Icons[name ?? '']
 
   if (Icon === undefined) {
-
-    if (disableFetching) {
-      return placeholder
-    }
 
     const SvgUri = require('./SvgUri').default;
     return <SvgUri
@@ -37,6 +34,8 @@ const YbCoreIcon: FC<YbCoreIconProps> = props => {
         loadingPlaceholder: loadingPlaceholder,
         forcedConversion: forcedConversion,
         url: customUrl ?? (baseUrl + name),
+        disableCache: disableCache,
+        disableFetching: disableFetching
       }}
       overrideProps={{
         width: (width ?? 24),

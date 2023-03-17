@@ -13,11 +13,14 @@ export interface SvgUriProps extends BasicIconProps {
   placeholder?        : ReactElement;
   loadingPlaceholder? : ReactElement;
   forcedConversion?   : boolean;
+  disableCache?       : boolean;
+  disableFetching?    : boolean;
  }
 
 export interface YbCoreIconProps extends BasicIconProps {
   readonly name?                  : string;
   readonly forcedConversion?      : boolean;
+  readonly disableCache?          : boolean;
   readonly disableFetching?       : boolean;
   readonly placeholder?           : ReactElement;
   readonly loadingPlaceholder?    : ReactElement;
