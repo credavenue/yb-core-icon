@@ -1428,9 +1428,10 @@ function requireReactJsxRuntime_development () {
 } (jsxRuntime));
 
 var Icons = {};
-Icons['complex.svg'] = require('../svgr/complex.js').default;
-Icons['trash.svg'] = require('../svgr/trash.js').default;
-Icons['trending-up.svg'] = require('../svgr/trending-up.js').default;
+Icons['test_01.svg'] = require('../svgr/test_01.js').default; // apple
+Icons['test_02.svg'] = require('../svgr/test_02.js').default; // facebook
+Icons['test_03.svg'] = require('../svgr/test_03.js').default; // linkedIn
+Icons['test_04.svg'] = require('../svgr/test_04.js').default; // microsoft
 
 var isPlainObj = value => {
 	if (Object.prototype.toString.call(value) !== '[object Object]') {
@@ -1844,13 +1845,10 @@ var useCacheInvalidate = function (timeToInvalidateCache) {
 
 var baseUrl = 'https://www.svgrepo.com/download/';
 var YbCoreIcon = function (props) {
-    var name = props.name, width = props.width, height = props.height, color = props.color, _a = props.disableFetching, disableFetching = _a === void 0 ? false : _a, _b = props.forcedConversion, forcedConversion = _b === void 0 ? true : _b, _c = props.placeholder, placeholder = _c === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _c, _d = props.loadingPlaceholder, loadingPlaceholder = _d === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _d, customUrl = props.customUrl, _e = props.invalidateCacheInDays, invalidateCacheInDays = _e === void 0 ? 2 : _e;
+    var name = props.name, width = props.width, height = props.height, color = props.color, _a = props.disableFetching, disableFetching = _a === void 0 ? false : _a, _b = props.forcedConversion, forcedConversion = _b === void 0 ? true : _b, _c = props.placeholder, placeholder = _c === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _c, _d = props.loadingPlaceholder, loadingPlaceholder = _d === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _d, customUrl = props.customUrl, _e = props.invalidateCacheInDays, invalidateCacheInDays = _e === void 0 ? 2 : _e, _f = props.disableCache, disableCache = _f === void 0 ? false : _f;
     useCacheInvalidate(invalidateCacheInDays);
     var Icon = Icons[name !== null && name !== void 0 ? name : ''];
     if (Icon === undefined) {
-        if (disableFetching) {
-            return placeholder;
-        }
         var SvgUri = require('./SvgUri').default;
         return jsxRuntimeExports.jsx(SvgUri, { props: {
                 color: color,
@@ -1858,6 +1856,8 @@ var YbCoreIcon = function (props) {
                 loadingPlaceholder: loadingPlaceholder,
                 forcedConversion: forcedConversion,
                 url: customUrl !== null && customUrl !== void 0 ? customUrl : (baseUrl + name),
+                disableCache: disableCache,
+                disableFetching: disableFetching
             }, overrideProps: {
                 width: (width !== null && width !== void 0 ? width : 24),
                 height: (height !== null && height !== void 0 ? height : 24),

@@ -10,6 +10,7 @@ interface BasicIconProps {
 interface YbCoreIconProps extends BasicIconProps {
     readonly name?: string;
     readonly forcedConversion?: boolean;
+    readonly disableCache?: boolean;
     readonly disableFetching?: boolean;
     readonly placeholder?: ReactElement;
     readonly loadingPlaceholder?: ReactElement;
