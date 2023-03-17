@@ -44,7 +44,7 @@ Install via package.json
 ### Usage
 
 ```js
-<YbCoreIcon name="apple.svg" width={50} height={50} color={'red'} />
+<YbCoreIcon name="test_01.svg" width={50} height={50} color={'red'} />
 ```
 
 ### Component Description
