@@ -78,10 +78,10 @@ Please note that all the props are optional.
 
 # version 1.0.0-beta1 (manually added by dev - Raja Vijaya Kumar)
 
-test_01.svg -> <img src="https://www.svgrepo.com/show/506383/apple.svg" width={'50p'} height={'50p'}>
-test_02.svg -> <img src="https://www.svgrepo.com/download/506477/facebook.svg" width={'50p'} height={'50p'}>
-test_03.svg -> <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width={'50p'} height={'50p'}>
-test_04.svg -> <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width={'50p'} height={'50p'}>
+test_01.svg -> <img src="https://www.svgrepo.com/show/506383/apple.svg" width='50' height='50' >
+test_02.svg -> <img src="https://www.svgrepo.com/download/506477/facebook.svg" width='50p' height='50p'>
+test_03.svg -> <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width='50p' height='50p'>
+test_04.svg -> <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width='50p' height='50p'>
 
 ## Contact
 
