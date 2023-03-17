@@ -47,29 +47,29 @@ Install via package.json
 <YbCoreIcon name="test_01.svg" width={50} height={50} color={'red'} />
 ```
 
-### Component Description
+### Component Props Description
 
-**name:** a string representing the name of the YbCore icon to be rendered. You can find the supported names constructed by versions below.
+**name:-** a string representing the name of the YbCore icon to be rendered. You can find the supported names constructed by versions below.
 
-**width:** a string or number representing the width of the icon.
+**width:-** a string or number representing the width of the icon.
 
-**height:** a string or number representing the height of the icon.
+**height:-** a string or number representing the height of the icon.
 
-**color:** a ColorValue type representing the color of the icon.
+**color:-** a ColorValue type representing the color of the icon.
 
-**customUrl:** a string representing a custom URL for the icon. Please note that the presense of the customUrl will override the name given in the icon.
+**customUrl:-** a string representing a custom URL for the icon. Please note that the presense of the customUrl will override the name given in the icon.
 
-**forcedConversion:** a boolean flag that indicates whether to force color conversion for YbCore icons. Default is **true**. If no custom color is required will recommend changing it to **false**.
+**forcedConversion:-** a boolean flag that indicates whether to force color conversion for YbCore icons. Default is **true**. If no custom color is required will recommend changing it to **false**.
 
-**disableCache:** a boolean flag that indicates whether to disable caching for YbCore icons.
+**disableCache:-** a boolean flag that indicates whether to disable caching for YbCore icons.
 
-**disableFetching:** a boolean flag that indicates whether to disable fetching of YbCore icons. This will not fire any api requests from the component. Instead it will check for only internal icons and cached icons. If none are present then the Placeholder will be shown.
+**disableFetching:-** a boolean flag that indicates whether to disable fetching of YbCore icons. This will not fire any api requests from the component. Instead it will check for only internal icons and cached icons. If none are present then the Placeholder will be shown.
 
-**placeholder:** a React element to be rendered while the YbCore icon is being loaded.
+**placeholder:-** a React element to be rendered while the YbCore icon is being loaded.
 
-**loadingPlaceholder:** a React element to be rendered if an error occurs while loading the YbCore icon.
+**loadingPlaceholder:-** a React element to be rendered if an error occurs while loading the YbCore icon.
 
-**invalidateCacheInDays:** a number representing the number of days after which the cache for the YbCore icon should be invalidated.
+**invalidateCacheInDays:-** a number representing the number of days after which the cache for the YbCore icon should be invalidated.
 
 Please note that all the props are optional.
 **placeholder:** will be taken instead of **loadingPlaceholder:** if no loading placeholder is given. If both are given then during the loading the **loadingPlaceholder:** will be shown. If the load fails then the **placeholder:** will be shown.
