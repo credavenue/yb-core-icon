@@ -18,7 +18,6 @@
     "remove-unwanted": "rm -rf build/dts/App.d.ts && rm -rf build/dts/index.d.ts",
     "build": "yarn gen-ts && yarn remove-unwanted && rollup -c && yarn add react-native @yubi/yb-prepublish-validator -D",
     "validate-and-publish": "yb-prepublish-validator yb-core-icon && npm publish",
-    "prepublishOnly": "yarn test",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "eslintConfig": {
