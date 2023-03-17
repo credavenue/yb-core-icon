@@ -10,7 +10,7 @@ function App() {
         <YbCoreIcon name="test_01.svg" width={50} height={50} color={'#555555'} />
         <YbCoreIcon name="test_02.svg" width={50} height={50} color={'#4267B2'} />
         <YbCoreIcon name="test_03.svg" width={50} height={50} color={'#0077b5'} />
-        <YbCoreIcon name="test_04.svg" width={50} height={50} />
+        <YbCoreIcon name="test_04.svg" width={50} height={50} color={'#00A4EF'} />
         <Text style={{ fontSize: 28 }}>Icons Fetched from server and cache</Text>
         <YbCoreIcon name="506383/apple.svg" width={50} height={50} color={'red'} />
         <YbCoreIcon name="505564/attachment.svg" forcedConversion={true} width={50} height={50} color={'blue'} />
