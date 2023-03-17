@@ -92,6 +92,8 @@ Please note that all the props are optional.
 | test_03.svg | <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width='50' height='50' >  |
 | test_04.svg | <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width='50' height='50' > |
 
+(-----)
+
 ## Contact
 
 For any queries or suggestions in this component, please contact **Phoenix Team** 😄

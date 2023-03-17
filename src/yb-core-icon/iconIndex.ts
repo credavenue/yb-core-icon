@@ -7,4 +7,6 @@ Icons['test_02.svg'] = require('../svgr/test_02.js').default; // facebook
 Icons['test_03.svg'] = require('../svgr/test_03.js').default; // linkedIn
 Icons['test_04.svg'] = require('../svgr/test_04.js').default; // microsoft
 
+// (-----)
+
 export default Icons
