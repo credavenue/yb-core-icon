@@ -8,5 +8,7 @@ Icons['test_03.svg'] = require('../svgr/test_03.js').default; // linkedIn
 Icons['test_04.svg'] = require('../svgr/test_04.js').default; // microsoft
 
 // (-----)
+/********** CAUTION *********/
+/* DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION */
 
 export default Icons

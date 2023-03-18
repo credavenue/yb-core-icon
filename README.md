@@ -94,6 +94,9 @@ Please note that all the props are optional.
 
 (-----)
 
+/****\*\***** CAUTION ****\*****/
+/_ DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION _/
+
 ## Contact
 
 For any queries or suggestions in this component, please contact **Phoenix Team** 😄
