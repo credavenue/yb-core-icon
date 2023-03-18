@@ -91,6 +91,16 @@ Please note that all the props are optional.
 | test_02.svg | <img src="https://www.svgrepo.com/download/506477/facebook.svg" width='50' height='50' >  |
 | test_03.svg | <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width='50' height='50' >  |
 | test_04.svg | <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width='50' height='50' > |
+| alarm-minus.svg | <img src="https://baseUrl/alarm-minus.svg" width='50' height='50' > |
+| alarm-plus.svg | <img src="https://baseUrl/alarm-plus.svg" width='50' height='50' > |
+| alert-circle.svg | <img src="https://baseUrl/alert-circle.svg" width='50' height='50' > |
+| alert-triangle.svg | <img src="https://baseUrl/alert-triangle.svg" width='50' height='50' > |
+| arrow-left-right.svg | <img src="https://baseUrl/arrow-left-right.svg" width='50' height='50' > |
+| bookmark-minus.svg | <img src="https://baseUrl/bookmark-minus.svg" width='50' height='50' > |
+| bookmark-plus.svg | <img src="https://baseUrl/bookmark-plus.svg" width='50' height='50' > |
+| circle-slashed.svg | <img src="https://baseUrl/circle-slashed.svg" width='50' height='50' > |
+| circle.svg | <img src="https://baseUrl/circle.svg" width='50' height='50' > |
+| mic-off.svg | <img src="https://baseUrl/mic-off.svg" width='50' height='50' > |
 
 (-----)
 
