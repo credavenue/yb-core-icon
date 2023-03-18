@@ -1,3 +1,7 @@
+# ******\*\******* TEST BUILD ******\*******
+
+# **\*\*** DO NOT USE IN PRODUCTION **\*\*\***
+
 # Yubi Core Icon
 
 Yubi Core Icon is a component built to support the iconography of Yubi Design System. All icons in Yubi Design System will be available in our Icon component. If any icon is missing in the components project it will fetch it from the server and cache it. Once a new icon is uploaded to the design system this component will be updated in project level automatically and will be published by Jenkins. So it is recommended that you use the 'latest' version in you project. It is designed to render icons in SVG format and also internally supports dynamic colorization of svg.
@@ -85,22 +89,22 @@ Please note that all the props are optional.
 
 # version 1.0.0-beta1 (manually added by dev - Raja Vijaya Kumar)
 
-| Icon Name   | Icons                                                                                     |
-| ----------- | ----------------------------------------------------------------------------------------- |
-| test_01.svg | <img src="https://www.svgrepo.com/show/506383/apple.svg" width='50' height='50' >         |
-| test_02.svg | <img src="https://www.svgrepo.com/download/506477/facebook.svg" width='50' height='50' >  |
-| test_03.svg | <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width='50' height='50' >  |
-| test_04.svg | <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width='50' height='50' > |
-| alarm-minus.svg | <img src="https://baseUrl/alarm-minus.svg" width='50' height='50' > |
-| alarm-plus.svg | <img src="https://baseUrl/alarm-plus.svg" width='50' height='50' > |
-| alert-circle.svg | <img src="https://baseUrl/alert-circle.svg" width='50' height='50' > |
-| alert-triangle.svg | <img src="https://baseUrl/alert-triangle.svg" width='50' height='50' > |
-| arrow-left-right.svg | <img src="https://baseUrl/arrow-left-right.svg" width='50' height='50' > |
-| bookmark-minus.svg | <img src="https://baseUrl/bookmark-minus.svg" width='50' height='50' > |
-| bookmark-plus.svg | <img src="https://baseUrl/bookmark-plus.svg" width='50' height='50' > |
-| circle-slashed.svg | <img src="https://baseUrl/circle-slashed.svg" width='50' height='50' > |
-| circle.svg | <img src="https://baseUrl/circle.svg" width='50' height='50' > |
-| mic-off.svg | <img src="https://baseUrl/mic-off.svg" width='50' height='50' > |
+| Icon Name            | Icons                                                                                     |
+| -------------------- | ----------------------------------------------------------------------------------------- |
+| test_01.svg          | <img src="https://www.svgrepo.com/show/506383/apple.svg" width='50' height='50' >         |
+| test_02.svg          | <img src="https://www.svgrepo.com/download/506477/facebook.svg" width='50' height='50' >  |
+| test_03.svg          | <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width='50' height='50' >  |
+| test_04.svg          | <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width='50' height='50' > |
+| alarm-minus.svg      | <img src="https://baseUrl/alarm-minus.svg" width='50' height='50' >                       |
+| alarm-plus.svg       | <img src="https://baseUrl/alarm-plus.svg" width='50' height='50' >                        |
+| alert-circle.svg     | <img src="https://baseUrl/alert-circle.svg" width='50' height='50' >                      |
+| alert-triangle.svg   | <img src="https://baseUrl/alert-triangle.svg" width='50' height='50' >                    |
+| arrow-left-right.svg | <img src="https://baseUrl/arrow-left-right.svg" width='50' height='50' >                  |
+| bookmark-minus.svg   | <img src="https://baseUrl/bookmark-minus.svg" width='50' height='50' >                    |
+| bookmark-plus.svg    | <img src="https://baseUrl/bookmark-plus.svg" width='50' height='50' >                     |
+| circle-slashed.svg   | <img src="https://baseUrl/circle-slashed.svg" width='50' height='50' >                    |
+| circle.svg           | <img src="https://baseUrl/circle.svg" width='50' height='50' >                            |
+| mic-off.svg          | <img src="https://baseUrl/mic-off.svg" width='50' height='50' >                           |
 
 (-----)
 
