@@ -91,14 +91,10 @@ Please note that all the props are optional.
 | test_02.svg | <img src="https://www.svgrepo.com/download/506477/facebook.svg" width='50' height='50' >  |
 | test_03.svg | <img src="https://www.svgrepo.com/download/506517/linkedin.svg" width='50' height='50' >  |
 | test_04.svg | <img src="https://www.svgrepo.com/download/506522/microsoft.svg" width='50' height='50' > |
-| apple.svg | <img src="https://baseUrl/apple.svg" width='50' height='50' > |
-| facebook.svg | <img src="https://baseUrl/facebook.svg" width='50' height='50' > |
-| linked-in.svg | <img src="https://baseUrl/linked-in.svg" width='50' height='50' > |
-| microsoft.svg | <img src="https://baseUrl/microsoft.svg" width='50' height='50' > |
 
 (-----)
 
-/****\*\***** CAUTION ****\*****/
+/\***\*\*\*\*\*** CAUTION \***\*\*\*\***/
 /_ DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION _/
 
 ## Contact
