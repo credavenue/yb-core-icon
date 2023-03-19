@@ -112,6 +112,16 @@ Added new Icons
 
 | Icon Name | Icons |
 | --------- | ----- |
+| test-05.svg | (updated in version 1.0.6-test) |
+| test-06.svg | (updated in version 1.0.6-test) |
+| test-07.svg | (updated in version 1.0.6-test) |
+
+# version 1.0.6-test (CLI UPDATE)
+
+Updated Icons 
+
+| Icon Name | Icons |
+| --------- | ----- |
 | test-05.svg | <img src="https://baseUrl/test-05.svg" width='50' height='50' > |
 | test-06.svg | <img src="https://baseUrl/test-06.svg" width='50' height='50' > |
 | test-07.svg | <img src="https://baseUrl/test-07.svg" width='50' height='50' > |
