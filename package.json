@@ -1,6 +1,6 @@
 {
   "name": "@yubi/yb-core-icon",
-  "version": "1.0.5-test",
+  "version": "1.0.4-test",
   "private": false,
   "dependencies": {
     "react-native-eject": "^0.2.0",
@@ -16,7 +16,7 @@
     "eject": "react-scripts eject",
     "gen-ts": "npx tsc",
     "remove-unwanted": "rm -rf build/dts/App.d.ts && rm -rf build/dts/index.d.ts",
-    "build": "yarn gen-ts && yarn remove-unwanted && rollup -c",
+    "build": "yarn gen-ts && yarn remove-unwanted && rollup -c && yarn add react-native @yubi/yb-prepublish-validator -D",
     "validate-and-publish": "yb-prepublish-validator yb-core-icon && npm publish",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
