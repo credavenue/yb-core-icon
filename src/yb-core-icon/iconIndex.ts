@@ -22,3 +22,4 @@ Icons['mic-off.svg'] = require('../svgr/mic-off.js').default;
 /* DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION */
 
 export default Icons
+/* DO NOT REMOVE THE EMPTY SPACE BELOW */
