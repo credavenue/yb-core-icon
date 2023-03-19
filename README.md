@@ -106,6 +106,16 @@ Please note that all the props are optional.
 | circle.svg           | <img src="https://baseUrl/circle.svg" width='50' height='50' >                            |
 | mic-off.svg          | <img src="https://baseUrl/mic-off.svg" width='50' height='50' >                           |
 
+# version 1.0.5-test (CLI ADD)
+
+Added new Icons
+
+| Icon Name | Icons |
+| --------- | ----- |
+| test-05.svg | <img src="https://baseUrl/test-05.svg" width='50' height='50' > |
+| test-06.svg | <img src="https://baseUrl/test-06.svg" width='50' height='50' > |
+| test-07.svg | <img src="https://baseUrl/test-07.svg" width='50' height='50' > |
+
 (-----)
 
 /\***\*\*\*\*\*** CAUTION \***\*\*\*\***/
