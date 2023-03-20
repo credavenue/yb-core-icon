@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { YbCoreIconProps } from './YbCoreIcon.type';
-import Icons from './iconIndex';
 import { useCacheInvalidate } from './CacheService';
+import Icons from './iconIndex';
 
 const baseUrl = 'https://www.svgrepo.com/download/'
 
@@ -22,11 +22,32 @@ const YbCoreIcon: FC<YbCoreIconProps> = props => {
 
   useCacheInvalidate(invalidateCacheInDays)
 
-  let Icon = Icons[name ?? '']
+  const iconName = name ?? ''
+  const Icon = Icons[iconName]?.uri
 
-  if (Icon === undefined) {
+  if (Icon !== undefined) {
+    let widthProps = {}, heightProps = {}
 
+    if (width !== undefined) {
+      widthProps = { width: width }
+    }
+
+    if (height !== undefined) {
+      heightProps = { height: height }
+    }
+
+    const IconComponent = Icon.default
+    return <IconComponent
+      color={color}
+      {...widthProps}
+      {...heightProps}
+    />
+  } else {
+    if (customUrl === undefined) {
+      console.warn('Icon not present within the component. Attempting the fetch the Icon from server or cache. \n Please update the component to latest version.')
+    }
     const SvgUri = require('./SvgUri').default;
+
     return <SvgUri
       props={{
         color: color,
@@ -42,19 +63,6 @@ const YbCoreIcon: FC<YbCoreIconProps> = props => {
         height: (height ?? 24),
       }}
     />
-  } else {
-
-    let widthProps = {}, heightProps = {}
-
-    if (width !== undefined) {
-      widthProps = { width: width }
-    }
-
-    if (height !== undefined) {
-      heightProps = { height: height }
-    }
-
-    return <Icon color={color} {...widthProps} {...heightProps} />
   }
 };
 
