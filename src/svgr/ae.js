@@ -3,7 +3,7 @@ import Svg, { G, Path } from 'react-native-svg';
 function SvgAe(props) {
 	return (
 		<Svg
-			fill={props.color ?? '#000000'}
+			fill={props.color ?? 'red'}
 			xmlns="http://www.w3.org/2000/svg"
 			xmlnsXlink="http://www.w3.org/1999/xlink"
 			width="800px"
