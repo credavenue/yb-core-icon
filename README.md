@@ -112,9 +112,9 @@ Added new Icons
 
 | Icon Name | Icons |
 | --------- | ----- |
-| test-05.svg | (deleted in version 1.0.7-test) |
-| test-06.svg | (deleted in version 1.0.7-test) |
-| test-07.svg | (deleted in version 1.0.7-test) |
+| test-05.svg | (updated in version 1.0.9-test) |
+| test-06.svg | (updated in version 1.0.9-test) |
+| test-07.svg | (updated in version 1.0.9-test) |
 
 # version 1.0.6-test (CLI UPDATE)
 
@@ -122,13 +122,13 @@ Updated Icons
 
 | Icon Name | Icons |
 | --------- | ----- |
-| test-05.svg | (deleted in version 1.0.7-test) |
-| test-06.svg | (deleted in version 1.0.7-test) |
-| test-07.svg | (deleted in version 1.0.7-test) |
+| test-05.svg | (updated in version 1.0.9-test) |
+| test-06.svg | (updated in version 1.0.9-test) |
+| test-07.svg | (updated in version 1.0.9-test) |
 
 # version 1.0.7-test (CLI DELETE)
 
-DELETED Icons 
+DELETED Icons
 
 test-05.svg
 test-06.svg
@@ -137,6 +137,16 @@ test-07.svg
 # version 1.0.8-test (CLI ADD)
 
 Added new Icons
+
+| Icon Name | Icons |
+| --------- | ----- |
+| test-05.svg | (updated in version 1.0.9-test) |
+| test-06.svg | (updated in version 1.0.9-test) |
+| test-07.svg | (updated in version 1.0.9-test) |
+
+# version 1.0.9-test (CLI UPDATE)
+
+Updated Icons 
 
 | Icon Name | Icons |
 | --------- | ----- |
