@@ -194,6 +194,16 @@ Added new Icons
 | circle.svg | <img src="https://baseUrl/circle.svg" width='50' height='50' > |
 | mic-off.svg | <img src="https://baseUrl/mic-off.svg" width='50' height='50' > |
 
+# version 1.0.12-test (CLI ADD)
+
+Added new Icons
+
+| Icon Name | Icons |
+| --------- | ----- |
+| ae.svg | <img src="https://baseUrl/ae.svg" width='50' height='50' > |
+| au.svg | <img src="https://baseUrl/au.svg" width='50' height='50' > |
+| br.svg | <img src="https://baseUrl/br.svg" width='50' height='50' > |
+
 (-----)
 
 /\***\*\*\*\*\*** CAUTION \***\*\*\*\***/

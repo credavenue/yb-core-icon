@@ -15,6 +15,9 @@ const Icons: Record<string, { uri: any } | undefined> = {
 "circle-slashed.svg": { uri: require('../svgr/circle-slashed.js') },
 "circle.svg": { uri: require('../svgr/circle.js') },
 "mic-off.svg": { uri: require('../svgr/mic-off.js') },
+"ae.svg": { uri: require('../svgr/ae.js') },
+"au.svg": { uri: require('../svgr/au.js') },
+"br.svg": { uri: require('../svgr/br.js') },
 
     // (-----)
     /********** CAUTION *********/
