@@ -58,7 +58,7 @@ function SvgUri(customProps: Props) {
           fetchFromServer()
         }
       }, (reason) => {
-        console.log('Cache failed to retrive. Reason: ', reason)
+        console.warn('Cache failed to retrive. Reason: ', reason)
         console.log('Fetching From Server...')
         fetchFromServer()
       })

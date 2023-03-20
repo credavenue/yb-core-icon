@@ -25,7 +25,7 @@ const YbCoreIcon: FC<YbCoreIconProps> = props => {
   let Icon = Icons[name ?? '']
 
   if (Icon === undefined) {
-
+    console.warn('Icon not present within the component. Attempting the fetch the Icon from server. \n Please update the component to latest version.')
     const SvgUri = require('./SvgUri').default;
     return <SvgUri
       props={{
