@@ -1442,9 +1442,6 @@ Icons['bookmark-plus.svg'] = require('../svgr/bookmark-plus.js').default;
 Icons['circle-slashed.svg'] = require('../svgr/circle-slashed.js').default;
 Icons['circle.svg'] = require('../svgr/circle.js').default;
 Icons['mic-off.svg'] = require('../svgr/mic-off.js').default;
-Icons['test-05.svg'] = require('../svgr/test-05.js').default;
-Icons['test-06.svg'] = require('../svgr/test-06.js').default;
-Icons['test-07.svg'] = require('../svgr/test-07.js').default;
 /* DO NOT REMOVE THE EMPTY SPACE BELOW */
 
 var isPlainObj = value => {
