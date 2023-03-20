@@ -12,3 +12,4 @@ Icons['test_04.svg'] = require('../svgr/test_04.js').default; // microsoft
 /* DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION */
 
 export default Icons
+/* DO NOT REMOVE THE EMPTY SPACE BELOW */

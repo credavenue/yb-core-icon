@@ -12,7 +12,7 @@ Since new icon upload will cause the components project to be automated it is wi
 
 x.0.12 - major changes done by devs. (i.e) 2.0.1, 3.0.1, 10.0.1
 
-Please note that the last version (system generated version) will not reset with any minor or major update. It will keep on increasing indicating that there are newer icons updated and availabe.
+Please note that the last version (system generated version) will not reset with any minor or major update. It will keep on increasing indicating that there are newer icons updated and available.
 
 (i.e):- Assume there is a version 2.1.45.
 
@@ -83,7 +83,7 @@ Please note that all the props are optional.
 
 ## Available Icons in the Component
 
-# version 1.0.0-beta1 (manually added by dev - Raja Vijaya Kumar)
+# version 1.0.0-beta1
 
 | Icon Name   | Icons                                                                                     |
 | ----------- | ----------------------------------------------------------------------------------------- |
@@ -94,7 +94,7 @@ Please note that all the props are optional.
 
 (-----)
 
-/****\*\***** CAUTION ****\*****/
+/\***\*\*\*\*\*** CAUTION \***\*\*\*\***/
 /_ DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION _/
 
 ## Contact
