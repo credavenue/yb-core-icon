@@ -134,6 +134,16 @@ test-05.svg
 test-06.svg
 test-07.svg
 
+# version 1.0.8-test (CLI ADD)
+
+Added new Icons
+
+| Icon Name | Icons |
+| --------- | ----- |
+| test-05.svg | <img src="https://baseUrl/test-05.svg" width='50' height='50' > |
+| test-06.svg | <img src="https://baseUrl/test-06.svg" width='50' height='50' > |
+| test-07.svg | <img src="https://baseUrl/test-07.svg" width='50' height='50' > |
+
 (-----)
 
 /\***\*\*\*\*\*** CAUTION \***\*\*\*\***/

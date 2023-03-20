@@ -1,6 +1,6 @@
 {
   "name": "@yubi/yb-core-icon",
-  "version": "1.0.7-test",
+  "version": "1.0.8-test",
   "private": false,
   "dependencies": {
     "react-native-eject": "^0.2.0",
