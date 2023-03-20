@@ -1427,23 +1427,6 @@ function requireReactJsxRuntime_development () {
 	}
 } (jsxRuntime));
 
-var Icons = {};
-Icons['test_01.svg'] = require('../svgr/test_01.js').default; // apple
-Icons['test_02.svg'] = require('../svgr/test_02.js').default; // facebook
-Icons['test_03.svg'] = require('../svgr/test_03.js').default; // linkedIn
-Icons['test_04.svg'] = require('../svgr/test_04.js').default; // microsoft
-Icons['alarm-minus.svg'] = require('../svgr/alarm-minus.js').default;
-Icons['alarm-plus.svg'] = require('../svgr/alarm-plus.js').default;
-Icons['alert-circle.svg'] = require('../svgr/alert-circle.js').default;
-Icons['alert-triangle.svg'] = require('../svgr/alert-triangle.js').default;
-Icons['arrow-left-right.svg'] = require('../svgr/arrow-left-right.js').default;
-Icons['bookmark-minus.svg'] = require('../svgr/bookmark-minus.js').default;
-Icons['bookmark-plus.svg'] = require('../svgr/bookmark-plus.js').default;
-Icons['circle-slashed.svg'] = require('../svgr/circle-slashed.js').default;
-Icons['circle.svg'] = require('../svgr/circle.js').default;
-Icons['mic-off.svg'] = require('../svgr/mic-off.js').default;
-/* DO NOT REMOVE THE EMPTY SPACE BELOW */
-
 var isPlainObj = value => {
 	if (Object.prototype.toString.call(value) !== '[object Object]') {
 		return false;
@@ -1854,12 +1837,49 @@ var useCacheInvalidate = function (timeToInvalidateCache) {
     }, []);
 };
 
+var Icons = {
+    "test_01.svg": { uri: require('../svgr/test_01.js') },
+    "test_02.svg": { uri: require('../svgr/test_02.js') },
+    "test_03.svg": { uri: require('../svgr/test_03.js') },
+    "test_04.svg": { uri: require('../svgr/test_04.js') },
+    "alarm-minus.svg": { uri: require('../svgr/alarm-minus.js') },
+    "alarm-plus.svg": { uri: require('../svgr/alarm-plus.js') },
+    "alert-circle.svg": { uri: require('../svgr/alert-circle.js') },
+    "alert-triangle.svg": { uri: require('../svgr/alert-triangle.js') },
+    "arrow-left-right.svg": { uri: require('../svgr/arrow-left-right.js') },
+    "bookmark-minus.svg": { uri: require('../svgr/bookmark-minus.js') },
+    "bookmark-plus.svg": { uri: require('../svgr/bookmark-plus.js') },
+    "circle-slashed.svg": { uri: require('../svgr/circle-slashed.js') },
+    "circle.svg": { uri: require('../svgr/circle.js') },
+    "mic-off.svg": { uri: require('../svgr/mic-off.js') },
+    // (-----)
+    /********** CAUTION *********/
+    /* DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION */
+};
+/* DO NOT REMOVE THE EMPTY SPACE BELOW */
+
 var baseUrl = 'https://www.svgrepo.com/download/';
 var YbCoreIcon = function (props) {
-    var name = props.name, width = props.width, height = props.height, color = props.color, _a = props.disableFetching, disableFetching = _a === void 0 ? false : _a, _b = props.forcedConversion, forcedConversion = _b === void 0 ? true : _b, _c = props.placeholder, placeholder = _c === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _c, _d = props.loadingPlaceholder, loadingPlaceholder = _d === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _d, customUrl = props.customUrl, _e = props.invalidateCacheInDays, invalidateCacheInDays = _e === void 0 ? 2 : _e, _f = props.disableCache, disableCache = _f === void 0 ? false : _f;
+    var _a;
+    var name = props.name, width = props.width, height = props.height, color = props.color, _b = props.disableFetching, disableFetching = _b === void 0 ? false : _b, _c = props.forcedConversion, forcedConversion = _c === void 0 ? true : _c, _d = props.placeholder, placeholder = _d === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _d, _e = props.loadingPlaceholder, loadingPlaceholder = _e === void 0 ? jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {}) : _e, customUrl = props.customUrl, _f = props.invalidateCacheInDays, invalidateCacheInDays = _f === void 0 ? 2 : _f, _g = props.disableCache, disableCache = _g === void 0 ? false : _g;
     useCacheInvalidate(invalidateCacheInDays);
-    var Icon = Icons[name !== null && name !== void 0 ? name : ''];
-    if (Icon === undefined) {
+    var iconName = name !== null && name !== void 0 ? name : '';
+    var Icon = (_a = Icons[iconName]) === null || _a === void 0 ? void 0 : _a.uri;
+    if (Icon !== undefined) {
+        var widthProps = {}, heightProps = {};
+        if (width !== undefined) {
+            widthProps = { width: width };
+        }
+        if (height !== undefined) {
+            heightProps = { height: height };
+        }
+        var IconComponent = Icon.default;
+        return jsxRuntimeExports.jsx(IconComponent, __assign({ color: color }, widthProps, heightProps));
+    }
+    else {
+        if (customUrl === undefined) {
+            console.warn('Icon not present within the component. Attempting the fetch the Icon from server or cache. \n Please update the component to latest version.');
+        }
         var SvgUri = require('./SvgUri').default;
         return jsxRuntimeExports.jsx(SvgUri, { props: {
                 color: color,
@@ -1873,16 +1893,6 @@ var YbCoreIcon = function (props) {
                 width: (width !== null && width !== void 0 ? width : 24),
                 height: (height !== null && height !== void 0 ? height : 24),
             } });
-    }
-    else {
-        var widthProps = {}, heightProps = {};
-        if (width !== undefined) {
-            widthProps = { width: width };
-        }
-        if (height !== undefined) {
-            heightProps = { height: height };
-        }
-        return jsxRuntimeExports.jsx(Icon, __assign({ color: color }, widthProps, heightProps));
     }
 };
 

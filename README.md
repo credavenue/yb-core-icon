@@ -177,6 +177,23 @@ circle-slashed.svg
 circle.svg
 mic-off.svg
 
+# version 1.0.11-test (CLI ADD)
+
+Added new Icons
+
+| Icon Name | Icons |
+| --------- | ----- |
+| alarm-minus.svg | <img src="https://baseUrl/alarm-minus.svg" width='50' height='50' > |
+| alarm-plus.svg | <img src="https://baseUrl/alarm-plus.svg" width='50' height='50' > |
+| alert-circle.svg | <img src="https://baseUrl/alert-circle.svg" width='50' height='50' > |
+| alert-triangle.svg | <img src="https://baseUrl/alert-triangle.svg" width='50' height='50' > |
+| arrow-left-right.svg | <img src="https://baseUrl/arrow-left-right.svg" width='50' height='50' > |
+| bookmark-minus.svg | <img src="https://baseUrl/bookmark-minus.svg" width='50' height='50' > |
+| bookmark-plus.svg | <img src="https://baseUrl/bookmark-plus.svg" width='50' height='50' > |
+| circle-slashed.svg | <img src="https://baseUrl/circle-slashed.svg" width='50' height='50' > |
+| circle.svg | <img src="https://baseUrl/circle.svg" width='50' height='50' > |
+| mic-off.svg | <img src="https://baseUrl/mic-off.svg" width='50' height='50' > |
+
 (-----)
 
 /\***\*\*\*\*\*** CAUTION \***\*\*\*\***/
