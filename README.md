@@ -110,8 +110,8 @@ Please note that all the props are optional.
 
 Added new Icons
 
-| Icon Name | Icons |
-| --------- | ----- |
+| Icon Name   | Icons                            |
+| ----------- | -------------------------------- |
 | test-05.svg | (deleted in version 1.0.10-test) |
 | test-06.svg | (deleted in version 1.0.10-test) |
 | test-07.svg | (deleted in version 1.0.10-test) |
@@ -120,8 +120,8 @@ Added new Icons
 
 Updated Icons
 
-| Icon Name | Icons |
-| --------- | ----- |
+| Icon Name   | Icons                            |
+| ----------- | -------------------------------- |
 | test-05.svg | (deleted in version 1.0.10-test) |
 | test-06.svg | (deleted in version 1.0.10-test) |
 | test-07.svg | (deleted in version 1.0.10-test) |
@@ -138,8 +138,8 @@ test-07.svg
 
 Added new Icons
 
-| Icon Name | Icons |
-| --------- | ----- |
+| Icon Name   | Icons                            |
+| ----------- | -------------------------------- |
 | test-05.svg | (deleted in version 1.0.10-test) |
 | test-06.svg | (deleted in version 1.0.10-test) |
 | test-07.svg | (deleted in version 1.0.10-test) |
@@ -148,19 +148,34 @@ Added new Icons
 
 Updated Icons
 
-| Icon Name | Icons |
-| --------- | ----- |
+| Icon Name   | Icons                            |
+| ----------- | -------------------------------- |
 | test-05.svg | (deleted in version 1.0.10-test) |
 | test-06.svg | (deleted in version 1.0.10-test) |
 | test-07.svg | (deleted in version 1.0.10-test) |
 
 # version 1.0.10-test (CLI DELETE)
 
-DELETED Icons 
+DELETED Icons
 
 test-05.svg
 test-06.svg
 test-07.svg
+
+# REVERSAL FOR TESTING
+
+DELETED Icons
+
+alarm-minus.svg
+alarm-plus.svg
+alert-circle.svg
+alert-triangle.svg
+arrow-left-right.svg
+bookmark-minus.svg
+bookmark-plus.svg
+circle-slashed.svg
+circle.svg
+mic-off.svg
 
 (-----)
 
