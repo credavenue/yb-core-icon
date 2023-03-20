@@ -1,15 +1,15 @@
-import React, { LazyExoticComponent } from "react";
+import React from "react";
 
-let Icons: Record<string, LazyExoticComponent<any>> = {}
+const Icons: Record<string, { uri: any } | undefined> = {
+    "test_01.svg": { uri: require('../svgr/test_01.js') }, // apple
+    "test_02.svg": { uri: require('../svgr/test_02.js') }, // facebook 
+    "test_03.svg": { uri: require('../svgr/test_03.js') }, // linkedIn 
+    "test_04.svg": { uri: require('../svgr/test_04.js') }, // microsoft 
 
-Icons['test_01.svg'] = require('../svgr/test_01.js').default; // apple
-Icons['test_02.svg'] = require('../svgr/test_02.js').default; // facebook
-Icons['test_03.svg'] = require('../svgr/test_03.js').default; // linkedIn
-Icons['test_04.svg'] = require('../svgr/test_04.js').default; // microsoft
-
-// (-----)
-/********** CAUTION *********/
-/* DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION */
+    // (-----)
+    /********** CAUTION *********/
+    /* DO NOT REMOVE ABOVE LINE. USED FOR AUTOMATION */
+}
 
 export default Icons
 /* DO NOT REMOVE THE EMPTY SPACE BELOW */
