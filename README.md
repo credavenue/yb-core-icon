@@ -200,19 +200,27 @@ Added new Icons
 
 | Icon Name | Icons |
 | --------- | ----- |
-| ae.svg | (updated in version 1.0.13-test) |
-| au.svg | (updated in version 1.0.13-test) |
-| br.svg | (updated in version 1.0.13-test) |
+| ae.svg | (deleted in version 1.0.14-test) |
+| au.svg | (deleted in version 1.0.14-test) |
+| br.svg | (deleted in version 1.0.14-test) |
 
 # version 1.0.13-test (CLI UPDATE)
 
-Updated Icons 
+Updated Icons
 
 | Icon Name | Icons |
 | --------- | ----- |
-| ae.svg | <img src="https://baseUrl/ae.svg" width='50' height='50' > |
-| au.svg | <img src="https://baseUrl/au.svg" width='50' height='50' > |
-| br.svg | <img src="https://baseUrl/br.svg" width='50' height='50' > |
+| ae.svg | (deleted in version 1.0.14-test) |
+| au.svg | (deleted in version 1.0.14-test) |
+| br.svg | (deleted in version 1.0.14-test) |
+
+# version 1.0.14-test (CLI DELETE)
+
+DELETED Icons 
+
+ae.svg
+au.svg
+br.svg
 
 (-----)
 
